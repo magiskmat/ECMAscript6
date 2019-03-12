@@ -4,12 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/webpack"
   },
   "keywords": [
     "webpack",
     "es6"
   ],
-  "author": "Eve Porcello",
+  "author": "Johanna Håkansson",
   "license": "MIT"
 }
