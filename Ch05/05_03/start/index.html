@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
-	<script type="text/babel">
+		<script type="text/babel">
+	fetch("https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js")
+	.then(console.log);
+
 
 		const spacePeople = () => {
 			return new Promise((resolves, rejects) => {
